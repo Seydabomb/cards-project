@@ -8,13 +8,53 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="author" content="Seyona Creger">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/dccc807c05.js" crossorigin="anonymous"></script>
+    <title>Cards Project</title>
 </head>
 
-<body>
-    <div class="container">
+<body class="background-black">
+    <section class="row row-cols-3">
+        <!-- Begin Basic Card -->
+        <div class="card align-items-center col-2">
+            <i class="fa-solid fa-paper-plane icon"></i>
+            <h1>Basic</h1>
+            <h2><sup>$</sup>25</h2>
+            <p><i class="fas fa-check"></i> 50 Gb Space</p>
+            <p><i class="fas fa-check"></i> 5 Domain Names</p>
+            <p><i class="fas fa-check"></i> 20 Email Address</p>
+            <p>Live Support</p> <!-- unchecked -->
+            <br>
+            <button>Order Now</button>
+        </div>
 
-    </div><!--end. container -->
+        <!-- Begin Standard Card -->
+        <div class="card align-items-center col-2 ml-0 mr-0">
+            <i class="fa-solid fa-plane icon-rotated icon"></i>
+            <h1>Standard</h1>
+            <h2><sup>$</sup>50</h2>
+            <p><i class="fas fa-check"></i> 10 Gb Space</p>
+            <p><i class="fas fa-check"></i> 3 Domain Names</p>
+            <p><i class="fas fa-check"></i> Unlimited Email Addresses</p>
+            <p><i class="fas fa-check"></i> Live Support</p>
+            <br>
+            <button>Order Now</button>
+        </div>
+
+        <!-- Begin Premium Card -->
+        <div class="card align-items-center col-2">
+            <i class="fa-solid fa-rocket icon"></i>
+            <h1>Premium</h1>
+            <h2><sup>$</sup>100</h2>
+            <p><i class="fas fa-check"></i> Unlimited Gb Space</p>
+            <p><i class="fas fa-check"></i> 30 Domain Names</p>
+            <p><i class="fas fa-check"></i> Unlimited Email Addresses</p>
+            <p><i class="fas fa-check"></i> Live Support</p>
+            <br>
+            <button>Order Now</button>
+        </div>
+
+    </section><!--end .cards -->
 
     <script src="js/jquery.slim.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
