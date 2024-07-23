@@ -1,3 +1,5 @@
+/*=========================== General =================================*/
+
 .background-black {
 	background-color: #323232;
 }
@@ -31,6 +33,32 @@ hr {
 	margin-bottom: 0.5em;
 }
 
+button {
+	width: 8em;
+	background-color: #ffc98e;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #343435;
+	border-radius: 0.5em;
+	margin-top: 2em;
+	margin-bottom: 0.75em;
+	padding: 0.5em 1em;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	gap: 0.25em !important; /* Slightly more spacing between the cards */
+}
+
+/*=========================== Cards =================================*/
+
+.card-container {
+	margin-top: 4em;
+	display: flex;
+	justify-content: center;
+}
+
 .card {
 	color: white;
 	width: 100%; /* 100% the width of the card */
@@ -48,6 +76,8 @@ hr {
 	margin: 0.1em;
 }
 
+/*=========================== Icons =================================*/
+
 .icon {
 	margin-top: 0.75em;
 	font-size: 2em;
@@ -58,28 +88,4 @@ hr {
 	transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
-}
-
-button {
-	width: 8em;
-	background-color: #ffc98e;
-	font-size: 0.8em;
-	font-weight: bold;
-	color: #343435;
-	border-radius: 0.5em;
-	margin-top: 2em;
-	margin-bottom: 0.75em;
-	padding: 0.5em 1em;
-}
-
-.row {
-	display: flex;
-	justify-content: center; /* Centering the cards horizontally */
-	gap: 0.25em !important; /* Spacing between cards */
-}
-
-.card-container {
-	margin-top: 4em;
-	display: flex;
-	justify-content: center;
 }
