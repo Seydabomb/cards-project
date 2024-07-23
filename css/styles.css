@@ -4,6 +4,7 @@
 
 sup {
 	font-size: inherit !important;
+	vertical-align: -0.2em !important;
 }
 
 p {
@@ -12,6 +13,7 @@ p {
 }
 
 h1 {
+	margin-bottom: 1em;
 	margin-top: 15px;
 	font-size: 20px;
 	color: white;
@@ -20,14 +22,21 @@ h1 {
 h2 {
 	color: #ffc98e;
 	font-weight: bold;
+	margin-bottom: 0.75em;
+}
+
+hr {
+	max-width: 16em !important;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 .card {
 	color: white;
-	width: 100%; /* 100% the width of the card, not necessarily width of the screen*/
-	margin: 3em auto; /* match center and margin of 3em top and bottom*/
+	width: 100%; /* 100% the width of the card */
+	margin: 2em;
 	border-radius: 3em 3em 10em 10em;
-	box-shadow: 0 0 0 0.6em #ffc98e;
+	box-shadow: 0 0 0 0.6em #ffc98e, 0 0 0 1em #2d2d2d;
 	outline: solid 0.4em #343435;
 	border: solid 0.2em #ffc98e;
 	background-image: linear-gradient(90deg, #4c4c4d 50%, #343435 50%);
@@ -52,10 +61,25 @@ h2 {
 }
 
 button {
+	width: 8em;
 	background-color: #ffc98e;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	font-weight: bold;
 	color: #343435;
 	border-radius: 0.5em;
+	margin-top: 2em;
 	margin-bottom: 0.75em;
+	padding: 0.5em 1em;
+}
+
+.row {
+	display: flex;
+	justify-content: center; /* Centering the cards horizontally */
+	gap: 0.25em !important; /* Spacing between cards */
+}
+
+.card-container {
+	margin-top: 4em;
+	display: flex;
+	justify-content: center;
 }
